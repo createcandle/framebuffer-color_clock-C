@@ -3,7 +3,7 @@
 
 #include <time.h>
 
-#define   FPS             60
+#define   FPS             1
 #define   FREQUENCY       CLOCKS_PER_SEC / FPS
 
 #endif

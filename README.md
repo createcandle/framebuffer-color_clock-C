@@ -1,5 +1,10 @@
 # Framebuffer Color Clock (C version)
 
+Created by:
+https://github.com/will-tam/framebuffer-color_clock-C
+
+Modified for use with Candle to show a clock on an attached display if the kiosk-mode is disabled, and the Photo-Frame addon is also not installed
+
 A colored clock just in test of framebuffer library.
 I confess this test/exercice idea comes from "Le Vortex" [https://www.youtube.com/@LeVortexARTE/videos](https://www.youtube.com/@LeVortexARTE/videos) and their clock.
 

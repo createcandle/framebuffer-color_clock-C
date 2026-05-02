@@ -118,7 +118,7 @@ int main()
 
       while (clock() - firsttick < FREQUENCY){ 
         /* Wait until 1/FPS s */
-        usleep(10000)
+        usleep(10000);
       }
 
     }

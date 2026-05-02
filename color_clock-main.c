@@ -116,7 +116,10 @@ int main()
       /* Flip buffer to framebuffer */
       memcpy(fbp->vramfbp, fbp->dbp, fbp->screensize);
 
-      while (clock() - firsttick < FREQUENCY){ /* Wait until 1/FPS s */}
+      while (clock() - firsttick < FREQUENCY){ 
+        /* Wait until 1/FPS s */
+        usleep(10000)
+      }
 
     }
     ch = getchar();
